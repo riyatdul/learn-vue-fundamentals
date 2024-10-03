@@ -11,7 +11,7 @@ const isMap = ref({
 })
 const count = ref(0)
 const increment = () => {
-    count.value++
+    count.value++ //access outside template, use .value
 }
 const decrement = () => {
     count.value--
