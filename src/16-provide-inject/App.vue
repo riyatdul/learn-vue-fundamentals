@@ -2,7 +2,7 @@
 import { provide } from 'vue';
 
 import ChildComponent from './components/ChildComponent.vue';
-provide("message", "hello")
+// provide("message", "hello")
 provide("info", {name:"Riyat Dul", isAdmin:true});
 </script>
 
