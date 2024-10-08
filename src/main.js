@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import AlertComponent from './17-global-component/components/AlertComponent.vue';
-import App from './17-global-component/App.vue';
+import './index.css';
+import App from './18-tailwind-css/App.vue';
 
 const app = createApp(App);
 
