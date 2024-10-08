@@ -1,0 +1,3 @@
+<template>
+    <alert-hello />
+</template>
